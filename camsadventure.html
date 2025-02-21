@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAMSADVENTURE! - Web Version</title>
+  <script src="https://cjrtnc.leaningtech.com/2.2/loader.js"></script>
+  <style>
+    body {
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    #game-container {
+      width: 800px;
+      height: 600px;
+      border: 5px solid #fff;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <div id="game-container">
+    <applet code="MainClass" archive="CAMSADVENTURE!.jar" width="800" height="600"></applet>
+  </div>
+  <script>
+    CheerpJInit();
+  </script>
+</body>
+</html>
